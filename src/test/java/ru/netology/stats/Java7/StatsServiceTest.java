@@ -32,7 +32,7 @@ public class StatsServiceTest {
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         long actual = service.monthMaximumSale(sales);
-        long expected = 8 ;
+        long expected = 8;
 
         Assertions.assertEquals(expected, actual);
     }
@@ -43,7 +43,7 @@ public class StatsServiceTest {
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         long actual = service.monthMinimumSale(sales);
-        long expected = 9 ;
+        long expected = 9;
 
         Assertions.assertEquals(expected, actual);
     }
@@ -54,7 +54,7 @@ public class StatsServiceTest {
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         long actual = service.NumberMonthMinAverage(sales);
-        long expected = 5 ;
+        long expected = 5;
 
         Assertions.assertEquals(expected, actual);
     }
@@ -65,7 +65,7 @@ public class StatsServiceTest {
         long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         long actual = service.NumberMonthMaxAverage(sales);
-        long expected = 5 ;
+        long expected = 5;
 
         Assertions.assertEquals(expected, actual);
     }
